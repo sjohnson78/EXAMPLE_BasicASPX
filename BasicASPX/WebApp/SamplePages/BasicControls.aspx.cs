@@ -94,10 +94,12 @@ namespace WebApp.SamplePages
                 //CheckBox: Property: Checked (boolean)
                 if (submitchoice.Equals("2") || submitchoice.Equals("4"))
                 {
+                    //show check mark in control
                     CheckBoxChoice.Checked = true;
                 }
                 else
                 {
+                    //no check mark in control
                     CheckBoxChoice.Checked = false;
                 }
 
